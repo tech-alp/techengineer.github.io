@@ -1,0 +1,912 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Haberleşmenin Temelleri'><title>Gömülü Sistemlerde Haberleşme</title>
+
+<link rel='canonical' href='https://techengineer.me/p/com/'>
+
+<link rel="stylesheet" href="/scss/style.min.css"><meta property='og:title' content='Gömülü Sistemlerde Haberleşme'>
+<meta property='og:description' content='Haberleşmenin Temelleri'>
+<meta property='og:url' content='https://techengineer.me/p/com/'>
+<meta property='og:site_name' content='Tech-Alp'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Communications' /><meta property='article:published_time' content='2021-07-22T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-07-22T00:00:00&#43;00:00'/><meta property='og:image' content='https://techengineer.me/p/com/com.jpg' />
+<meta name="twitter:title" content="Gömülü Sistemlerde Haberleşme">
+<meta name="twitter:description" content="Haberleşmenin Temelleri"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://techengineer.me/p/com/com.jpg' />
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "dark");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="main-container-background">
+            <div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="https://techengineer.me" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Back</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/p/com/">
+                <img src="/p/com/com_hufa5a21e3b2bf66612552e05d1232a6a3_166093_800x0_resize_q75_box.jpg"
+                        srcset="/p/com/com_hufa5a21e3b2bf66612552e05d1232a6a3_166093_800x0_resize_q75_box.jpg 800w, /p/com/com_hufa5a21e3b2bf66612552e05d1232a6a3_166093_1600x0_resize_q75_box.jpg 1600w"
+                        width="800" 
+                        height="450" 
+                        loading="lazy"
+                        alt="Featured image of post Gömülü Sistemlerde Haberleşme" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/communications/" style="background-color: #2a9d8f; color: ;">
+                Communications
+            </a>
+        
+            <a href="/categories/tutorials/" style="background-color: #2a9d8f; color: #fff;">
+                Tutorials
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/p/com/">Gömülü Sistemlerde Haberleşme</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Haberleşmenin Temelleri
+    </h3>
+    <footer class="article-time">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <time class="article-time--published">Jul 22, 2021</time>
+    </footer></div>
+</header>
+
+    <section class="article-content">
+    <h1 id="gömülü-sistemlerde-haberleşme">Gömülü Sistemlerde Haberleşme</h1>
+<p>Merhaba, bu yazımında sizlerle gömülü sistemlerde haberleşme nasıl yapılır ondan bahsedeceğim.</p>
+<p>Öncellikle yazıya geçmeden önce sizlere geçen sene en çok sorun yaşadığım bu haberleşme konusunun neden önemli olduğundan bahsedeceğim. Bir inşaatta nasıl temel olmadan diğer katlara geçilemeyeceği gibi model uyduda da iletişim olmadan diğer işlemleri gerçekleştiremezsiniz. Eğer haberleşme düzgün kurulmuyorsa diğer yaptığınız tüm işlemler hiçbir işe yaramıyacaktır. Haberleşmede yaşayacağınız en ufak aksaklık haliyle arayüzünüzde sorunlara da yol açabilir. Bunların tedbirlerini almanız gerekmektedir. Ben sizlere haberleşme konusunda yaşadığım yazılımsal problemleri anlatacağım. Ancak sizlerinde bu hataları görüp nasıl çözüm bulunduğu görmeniz için öncelikle sorunu belirtip daha sonra sorunun çözümü göstereceğim. Bunlardan bazıları kendim yapmaya çalıştığım yöntemler olacaktır ve muhtemelen sizlerde ilk olarak bu yöntemlerden birini kulanacaksınız.
+Evet hazırsak başlıyoruz…</p>
+<p><figure style="flex-grow: 177; flex-basis: 426px">
+		<a href="/p/com/DXh4DV.png" data-size="1814x1020"><img src="/p/com/DXh4DV.png"
+				srcset="/p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_480x0_resize_box_3.png 480w, /p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_1024x0_resize_box_3.png 1024w"
+				width="1814"
+				height="1020"
+				loading="lazy"
+				>
+		</a>
+		
+	</figure></p>
+<h2 id="içindekiler">İçindekiler</h2>
+<ul>
+<li><a class="link" href="#Aray%c3%bcz" >Arayüz</a></li>
+<li><a class="link" href="#Haberle%c5%9fme" >Haberleşme</a>
+<ul>
+<li><a class="link" href="#XML" >XML</a></li>
+<li><a class="link" href="#JSON" >JSON</a></li>
+<li><a class="link" href="#NanoPb" >NanoPb</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="arayüz">Arayüz</h3>
+<p>Model Uydu için arayüz tasarlarken belli başlı adımları izlemeniz gerekiyor. Bu adımları ben kısaca şöyle adımlıyorum;</p>
+<ol>
+<li>İlk olarak arayüzde istenilen isterlerin belirlenmesi.</li>
+<li>Bu isterler üzerinden arayüzü tasarlamak.(Bakın ilk önce arayüzü tasarlayın hele ki tek kişi tasarlıyorsanız.)</li>
+<li>Daha sonra arayüz az çok hazır olduktan sonra artık backend(lojik katman) kısmına geçebilirsiniz.</li>
+<li>Backend kısmında ise uçuş yazılımınız büyük ihtimalle hala yazılmamıştır. Peki neye göre yazacam diyeceksinizdir. Burada ise tamamen sanki telemetri verisi iletilmiş ve siz bu veriyi okumuşsunuz gibi davranın. Ardından okunan verileri artık kullanılacak yerlere yerleştirin. Ancak veri transferi hakkında hiçbir şey bilmiyorsanız basit olarak bir kaç deneme yapabilirsiniz.</li>
+<li>Tamam artık şimdi veri transfer etmeye ve bu transfer edilen verinin okunması adımına geçtik.</li>
+</ol>
+<p>Bu adımlar az çok her arayüz tasarımı için geçerli olacaktır.Hadi biraz detaya girelim ve bir arayüz tasarlayalım ve bu adımları üzerinde uygulayalım.</p>
+<p><figure style="flex-grow: 174; flex-basis: 417px">
+		<a href="/p/com/image-20210721120607551.png" data-size="3150x1810"><img src="/p/com/image-20210721120607551.png"
+				srcset="/p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_480x0_resize_box_3.png 480w, /p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_1024x0_resize_box_3.png 1024w"
+				width="3150"
+				height="1810"
+				loading="lazy"
+				>
+		</a>
+		
+	</figure></p>
+<p>Şimdi yukarıdaki resimde arayüzü basit manada oluşturduk ve görüldüğü gibi çok fazla eksik var ve bu eksikleri tamamen isterler üzerinden giderek eklememiz gerekiyor. Ben 2020 yılı Türksat Model Uydu için istenen isterler üzerinden gideceğim. Arka plan kamerayı sağ alt köşedeki dikdörtgen ise haritayı teslim etmektedir. Gps ve oriantaion(yaw,pitch,roll), takım numarası, batary, tarih ve saat gibi bir kaç şey belirtilmiş fakat eksikleri daha sonra ekleyeceğiz. Gördüğünüz gibi arayüz oluşturuldu ama eksikler var. Zaten her şeyi bir anda tasarlayamayacağımız farkındayım ben de şuanlık böyle bırakıp artık backend kodlarına geçeceğim. Daha sonra eksik olan kısımları düzenleyeceğiz. Burada ise çok önemli kısım UI ile logic kısmı bir birinden ayırmanız bu size tasarımda oldukça esneklik sağlayacakır. Böyle bir tasarım yapmak için MVC design patern’ı araştırabilirsiniz.</p>
+<p>Evet şimdi 3. adıma geçtik backend kodları yazmaya başlıyoruz. Backend kodu ile kastetmek istediğim logic katmandır. Kodları burda yazarak gitmek isterdim fakat o kadar bir vakit olmadığı için burayı tabiki siz yazacaksınız. Hadi 4. adımı inceleyelim. Teslim alınan telemetri verisini arayüzde bulunan yerlerine atama yapmanız gerekiyor. Bu telemetri verilerini nasıl teslim alınıyormuş gibi yapıyoruz ona bakalım. Bu yöntem aslında Test Driven Development(TTD) ile oldukça benzerdir. Mesela biz saat, tarih, batarya verisini aldık diyelim.</p>
+<p><figure style="flex-grow: 329; flex-basis: 791px">
+		<a href="/p/com/image-20210721120752050.png" data-size="277x84"><img src="/p/com/image-20210721120752050.png"
+				srcset="/p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_480x0_resize_box_3.png 480w, /p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_1024x0_resize_box_3.png 1024w"
+				width="277"
+				height="84"
+				loading="lazy"
+				>
+		</a>
+		
+	</figure></p>
+<p>Yukarıda 3 tane kırmızı kutucuk var ve bu kutucuklar içerisine text ekleyebileceğimiz kutulardır. Bu kutuların içerisine örnek olması amacıyla veriler yazdım. Biz teslim aldığımız saat, tarih ve batarya verisini buralara atayacağız. Diğer kısımlarıda aynı şekilde yapıyoruz.</p>
+<p>Evet 4. adımıda geçtik şimdi artık telemetri verilerini teslim alabiliriz. Buraya kadar herşey sadece basit bir temel oluşturmak içindi çünkü veriyi nasıl kullanacağımızı bilerek verileri teslim almak daha rahat ve performanslı kod yazmamıza yardımcı olur. şimdi artık asıl meselemize geçme vakti geldi.</p>
+<h3 id="haberleşme">Haberleşme</h3>
+<p>İlk olarak haberleşme nasıl yapılır sorusuna cevap verelim.</p>
+<p>Cihaz ile hostu(örn. Bilgisayar) haberleştirmek için kullanılan birden fazla haberleşme çeşiti vardır. Bunlar Seri Haberleşme, Ethernet ve Bluetooth olabilir. Hadi biz seri haberleşem kullanalım. Peki seri haberleşme nasıl oluyor. Seri haberleşme klasik, bilgisayarın portu ile micro denetleyici arasında kulladığınız USB kablosu(genellikle RS232) ile yapılan haberleşmedir. Herkesin rahatlıkla temin edip, basit kodlama ve protatip üretmek amacıyla Arduino kullanılarak kodlama yapılacaktır. Mantık her ortam için geçerlidir.</p>
+<p><figure style="flex-grow: 1490; flex-basis: 3577px">
+		<a href="/p/com/g36338.png" data-size="626x42"><img src="/p/com/g36338.png"
+				srcset="/p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_480x0_resize_box_3.png 480w, /p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_1024x0_resize_box_3.png 1024w"
+				width="626"
+				height="42"
+				loading="lazy"
+				>
+		</a>
+		
+	</figure></p>
+<p>Haberleşme türünü seçtik hadi öyleyse haberleşmeye geçelim.</p>
+<p>İlk olarak Arduino’da kullanılan sağ üst köşede bulunan seri port ekranını herkes bilir. Bunun seri iletişim yaparak seri ekrana veriyi bastığını bilen kaç kişi var. Seri port ekranı debug işlemi yapmamızı sağlayan bir özellik. Peki bu arduino içerisinde çalışan kodu nasıl oluyorda bizim bilgisayar ortamında gözlemlememizi sağlıyor olabilir? Konunun sonunda haberleşeme ile ilgili kafanızda pek soru işareti kalmayacaktır.</p>
+<p>Elimizde temperature verisi var ve biz bunu <code>Serial.println()</code> ile seri port ekranına 1sn’ de bir basıyor olalım. Bu bizim haberleşme de kullanacağımız ilk ve en basit yoldur.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">const</span> <span class="kt">int</span> <span class="n">temperature</span> <span class="o">=</span> <span class="mi">28</span><span class="p">;</span>
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;Temperature = &#34;</span><span class="p">);</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">temp</span><span class="p">);</span>
+  <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span> 
+</code></pre></div><p>İlk haberleşmemizi gerçeleştirdik. Gördüğünüz gibi çok basit bir şekilde veriyi bilgisayar ortamına aktardık ve serial port ekranı aracılığı ile Temperature değerini gözlemledik. Peki işlem nasıl gerçekleşti. Tabi ki Arduino Ide’si biz seri ekranı açtığımız anda farkında olmadan veriyi arduinodan 9600 baudrate hızında bağlantı kurarak teslim aldı. Bizim yazacağımız arayüz bu mantıkla seri port ekranına benziyor demi? Bizde arayüzü tasarlarken seri porttan faydalanabiliriz.</p>
+<p>O zaman seri port ekranını gözlemleyelim. Baudrate hızını ayarlamak için bir adet combo box var. Buradan Arduino ile bilgisayar ortamı arasındaki haberleşeme hızını seçiyoruz. Arduinoda yazdığımız haberleşme hızı Serial.begin(9600) ile aynı olmalıdır. Turuncu kutucuk &ldquo;Yeni satır&rdquo;, &ldquo;starı başı&rdquo;, &ldquo;NL ve CR ile birlikte&rdquo; olmak üzere monitordan arduinoya veri gönderirken satır sonuna eklenecek opsiyonları içerir.</p>
+<p><figure style="flex-grow: 200; flex-basis: 480px">
+		<a href="/p/com/use36508-9.png" data-size="658x329"><img src="/p/com/use36508-9.png"
+				srcset="/p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_480x0_resize_box_3.png 480w, /p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_1024x0_resize_box_3.png 1024w"
+				width="658"
+				height="329"
+				loading="lazy"
+				>
+		</a>
+		
+	</figure></p>
+<blockquote>
+<p><strong>Not:</strong> Arduino Ide’si Java ile yazılmıştır.</p>
+</blockquote>
+<p>Evet ilk örneğimizi yaptık ve ekranda değerimizi gözlemledik. Öncellikle tüm verilerimizi bu şekilde tasarladığımız arayüze gönderebiliz hadi bir kaç veri daha ekleyip nasıl bir işlem gerçekleşeceğini gözlemliyelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="kt">float</span> <span class="n">temperature</span> <span class="o">=</span> <span class="mi">28</span><span class="p">;</span>
+<span class="kt">float</span> <span class="n">humidity</span> <span class="o">=</span> <span class="mi">50</span><span class="p">;</span>
+<span class="kt">long</span> <span class="n">timestamp</span> <span class="o">=</span> <span class="mi">12450</span><span class="p">;</span>
+<span class="kt">void</span> <span class="nf">setup</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="p">}</span>
+<span class="kt">void</span> <span class="nf">loop</span><span class="p">()</span> <span class="p">{</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">temperature</span><span class="p">);</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="err">&#39;</span><span class="p">,</span><span class="err">’</span><span class="p">);</span> 
+  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">humidity</span><span class="p">);</span>
+  <span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="err">&#39;</span><span class="p">,</span><span class="err">’</span><span class="p">);</span> 
+  <span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">timestamp</span><span class="p">);</span>
+  <span class="n">delay</span><span class="p">(</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div><p>Farz edelim ki 3 veriyi sensörden okuduk ve arayüzde okumak için bilgisayar ortamına gönderdik. Hadi arayüze geçip bunları nasıl okuyacağımıza bakalım. Daha sonra bu örneğimizin eksilerini artıları belirleyip daha iyi hale nasıl getireceğimize bakalım.</p>
+<p>Sizlere haberleşme yapılırken bir kaç problemden daha bahsetmek istiyorum.</p>
+<ol>
+<li>
+<p><strong>Haberleşme</strong> <strong>sırasında</strong> <strong>veri</strong> <strong>kaybı</strong> <strong>yaşamak</strong>.</p>
+<p>Veri kaybı olması durumunda ne olur tabiki gönderilen sıra bozulur istenilen uzunlukta bir array elde edilmez ve arrayın son adresine ulaşmaya çalışıldığında segmatation fault hatası almak kaçınılmaz olur. Buda program sonlandırır.</p>
+</li>
+<li>
+<p><strong>Haberleşme</strong> <strong>sırasında</strong> <strong>herhangi</strong> <strong>bir</strong> <strong>bit</strong> <strong>değişmesi</strong>.</p>
+<p>Bitin değişmesi progrmamın çalışmasına mani olmaz ancak verinin yanlış olacağı ve anlık değişimlerin olacabileceği özellikle grafik çizimlerinde saçma sapan artış azalışların gözlemlenmesine sonuç olacaktır.</p>
+</li>
+<li>
+<p><strong>Aynı</strong> <strong>mesaj</strong> <strong>içinde</strong> <strong>farklı</strong> <strong>bilgiler</strong> <strong>göndermek</strong>.</p>
+</li>
+<li>
+<p><strong>Farklı</strong> <strong>platformlar</strong> <strong>arası</strong> <strong>veri</strong> <strong>akışı</strong> <strong>sağlamak</strong>.</p>
+</li>
+<li>
+<p><strong>Donanımdan</strong> <strong>bağımsızlaştırmak</strong>.</p>
+</li>
+</ol>
+<p>Aslında bu problem size protokol(Json,XML,NanoPb..) kullanmak zorunda bırakıyor. Yine de protokollere geçmeden sizelere protokolerle geçiş esnasına kadar neden bu protokoller kullanmak zorunda kaldığımızı örnekler üzerinde göstereceğim. Tabi protocol kullanmak zorunda değilsiniz ama kullanmak istemiyorsanız tüm bu problemleri kendiniz çözmek zorunda kalacaksınız.</p>
+<p>Ancak bunların hepsini kendiniz deneyerek gözlemlerseniz çok daha akılda kalıcı olacak ve daha iyi anlaşılacakdır.</p>
+<p>Artık ilk örneğimizi geliştirme zamanı geldi.</p>
+<p><code>Serial.print()</code> yerine artık <code>Serial.write()</code> kullanalım.</p>
+<p>Bunun sebebi Serial.print() text tabanlı(formatlı) akatarım yapmasına karşın Serial.write() binary tabanlı(formatsız) aktarım yapmasıdır buda bizlere çok daha performanslı işlem sağlayacaktır.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">struct</span> <span class="nc">Data</span> <span class="p">{</span>
+  <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>
+  <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>
+  <span class="kt">long</span> <span class="n">timestamp</span><span class="p">;</span>
+<span class="p">}</span><span class="n">data</span><span class="p">;</span>
+</code></pre></div><p>Data adında bir struct oluşturduk bu veri listemizi paketledik. <strong>Aynı</strong> <strong>mesaj</strong> <strong>içerisinde</strong> farklı verilerin transferini bu şekilde sağlıyoruz.</p>
+<p>Hadi sensörden gerekli bilgileri okuduk şimdi bunu bilgisayara gönderelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="mf">1.</span>	<span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="o">&amp;</span><span class="n">data</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">data</span><span class="p">));</span>
+
+<span class="mf">2.</span>      <span class="n">Data</span> <span class="o">*</span><span class="n">ptr</span> <span class="o">=</span> <span class="o">&amp;</span><span class="n">data</span><span class="p">;</span>
+	<span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">data</span><span class="p">);</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+	<span class="p">{</span>
+  	<span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="o">*</span><span class="n">ptr</span><span class="o">++</span><span class="p">);</span>
+	<span class="p">}</span>
+</code></pre></div><blockquote>
+<p>Bir mesaj paketini struct içerisine eklerken dikkat edilmesi gereken bir diğer konu alignment&rsquo;tir. Derleyici siz farkında olmadan veri yapınızı daha hızlı çalışabilmesi adına ekstra byte&rsquo;lar ekliyor olabilir.</p>
+</blockquote>
+<p>Bu iki yöntemde verimizi karşı tarafa iletmemizi sağlar. Bunlar dediğim gibi binary formatta taşınır ve karşı tarafta deserialize işlemi binary formatta gerçekleşir. İlk örnekle arasında ne fark var? İlk olarak text tabanlı bir haberleşme değil, daha sonra parse işlemi yapmayı gerektirmiyor çünkü zaten veri bilgisayara binary formatta bilgisayarın dilinde gönderdik. Sadece yapılması gereken ilgili değerin tipini belirtmek.</p>
+<p>Peki bunda ne gibi problemler var?</p>
+<ol>
+<li>
+<p>Taşınabilir değil.</p>
+</li>
+<li>
+<p>Rigid bir yapıya sahip.</p>
+</li>
+</ol>
+<p>Artıları ise;</p>
+<ol>
+<li>
+<p>Basittir.</p>
+</li>
+<li>
+<p>Performanslıdır.</p>
+</li>
+<li>
+<p>Güvenlidir.</p>
+</li>
+</ol>
+<p>Taşınabilirlikten kastım nedir?</p>
+<p>Örneğin, timestamp değişkeninin tipi long’tur.</p>
+<p>Long Arduino’da 4 byte yer kaplar.</p>
+<p>Linux 64-bit işletim sisteminde 8 byte yer kaplar.</p>
+<p>Bu bize gösteriyor ki bu veriyi karşı tarafa gönderirken <strong>platforma</strong> <strong>bağımlı</strong> oluyoruz. Yani karşı tarafa diyorum ki bak ben sana veri gönderdim bunun boyutu 4 byte ama sen platformun özelliklerini bilmeden bunu long tipinden bir değişkene yazarsan sonuç beklediğin gibi olmayabilir.</p>
+<p>Rigid olması herhangi bir değişiklikte bilgisayar tarafındaki kodu da değiştirmeye gerek olmaması durumudur.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Peki long tipini nasıl olurda platformdan bağımsız hale getirilebilir?</p>
+<p>Tabiki int32_t kullanarak bunu her platformda 4 byte olacağını garanti edebiliriz. O zaman struct bu şekilde olacaktır;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">struct</span> <span class="nc">Data</span> <span class="p">{</span>
+  <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>
+  <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>
+  <span class="kt">int32_t</span> <span class="n">timestamp</span><span class="p">;</span>
+<span class="p">}</span><span class="n">data</span><span class="p">;</span>
+</code></pre></div><p>Artık verileri platformdan bağımsız hale getirdik ama hale bilmemiz gereken bir şey daha var ki bu da <strong>Endianess</strong>’ tır.</p>
+<p>Yani byte’ların sıralanış biçimidir ve iki türlü endianness’ vardır. Bunlar <strong>Little</strong> <strong>Endiean</strong>(LSB) ve <strong>Big Endian</strong>(MSB)’dır. Ve çoğunlukla big endian tercih edilir. Şimdi bunlar nerden çıktı diyorsunuzdur. Binary işlem yapıyoruz tabiki byteların sıralanış biçimleri bizim için oldukça önem arz etmektedir. Fakat bunun için herhangi bir işlem şuan yapmayacağız.</p>
+<p>Hadi devam edelim ve struct yapımıza karakter taşıyan bir değişken ekleyelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">struct</span> <span class="nc">Data</span> <span class="p">{</span>
+  <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>
+  <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>
+  <span class="kt">int32_t</span> <span class="n">timestamp</span><span class="p">;</span>
+  <span class="kt">char</span> <span class="n">location</span><span class="p">[</span><span class="mi">16</span><span class="p">];</span>
+<span class="p">}</span><span class="n">data</span><span class="p">;</span>
+<span class="n">data</span><span class="p">.</span><span class="n">location</span> <span class="o">=</span> <span class="s">&#34;Living Room&#34;</span><span class="p">;</span>  <span class="c1">//Error
+</span></code></pre></div><p>Tabi ki char[16] tipindeki location değişkenine , const char[12] tipinde tip dönüşümü olacağından atama yapamayız.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">strcpy</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">location</span><span class="p">,</span><span class="s">&#34;Living Room&#34;</span><span class="p">);</span>
+</code></pre></div><p>Bu şekilde location değerine atama yapabiliriz.</p>
+<p>Fakat yazmak istediğimiz verinin büyük olmasına karşın overflow’dan kaçınmamız gerekecektir.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">strlcpy</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">location</span><span class="p">,</span><span class="s">&#34;Living Room&#34;</span><span class="p">,</span><span class="mi">16</span><span class="p">);</span>
+</code></pre></div><p>Fonksiyonun son parametresine boyutunu vererek bu boyuttan fazla yere erişme bu kadar yere olan kısma kadar tek yaz diyoruz.</p>
+<p>Peki buradaki problem ne?</p>
+<p>Problemlerimize ekstra olarak overhead(aşırı yükleme) oluşabilir. Mesela bir karakter göndermek istiyorum fakat karşı tarafa gönderilirken 16 byte aktarım yapılır sadece ilk karakter dolu diğerleri boş olacaktır. Buda gereksiz yere 15 byte veri transfer etmemiz anlamına gelir.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+<th><strong>Location</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>16 bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Hadi overhead engelleyip yolumuza devam edelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">struct</span> <span class="nc">Data</span> <span class="p">{</span>  
+    <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>
+    <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="n">timestamp</span><span class="p">;</span>
+    <span class="kt">uint8_t</span> <span class="n">location_len</span><span class="p">;</span>
+<span class="p">}</span><span class="n">data</span><span class="p">;</span>
+<span class="kt">char</span> <span class="n">location</span><span class="p">[</span><span class="mi">16</span><span class="p">];</span>
+</code></pre></div><p>Location değişkenini struct’tan dışarı çıkardık ve location değerinin boyutu teslim etmesi için <code>location_len</code> ekledik.</p>
+<p>Peki bunu nasıl bilgisayara göndereceğiz?</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">strlcpy</span><span class="p">(</span><span class="n">location</span><span class="p">,</span><span class="s">&#34;Living Room&#34;</span><span class="p">,</span><span class="mi">16</span><span class="p">);</span>
+<span class="n">data</span><span class="p">.</span><span class="n">location_len</span> <span class="o">=</span> <span class="n">strlen</span><span class="p">(</span><span class="n">location</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="o">&amp;</span><span class="n">data</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">data</span><span class="p">));</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">location</span><span class="p">,</span><span class="n">data</span><span class="p">.</span><span class="n">location_len</span><span class="p">);</span>
+</code></pre></div><p>Göndereceğimiz karakterin öncellikle ne kadar bir boyutu var onu alıyoruz. Daha sonra <code>location_len</code> değişkenine bu boyutu atatıktan sonra karakterimizi gönderiyoruz.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+<th><strong>Location_len</strong></th>
+<th><strong>Location</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>1 bytes</td>
+<td>11 bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Bazen farklı verileri transfer edebiliyoruz. Bunun için ayrı bir tane daha struct oluşturabiliriz.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="k">struct</span> <span class="nc">format_V1</span> <span class="p">{</span>  
+    <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>
+    <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>
+    <span class="kt">long</span> <span class="n">timestamp</span><span class="p">;</span>
+<span class="p">};</span>
+<span class="k">struct</span> <span class="nc">format_V2</span> <span class="p">{</span>  
+    <span class="kt">float</span> <span class="n">temperature</span><span class="p">;</span>  
+    <span class="kt">float</span> <span class="n">humidity</span><span class="p">;</span>  
+    <span class="kt">long</span> <span class="n">timestamp</span><span class="p">;</span>  
+    <span class="kt">float</span> <span class="n">pressure</span><span class="p">;</span>
+<span class="p">};</span>
+
+<span class="k">struct</span> <span class="nc">Data</span><span class="p">{</span>  
+    <span class="kt">uint8_t</span> <span class="n">version</span><span class="p">;</span>
+    <span class="k">union</span> <span class="p">{</span>    
+        <span class="n">format_V1</span> <span class="n">v1</span><span class="p">;</span>    
+        <span class="n">format_V2</span> <span class="n">v2</span><span class="p">;</span>  
+    <span class="p">};</span>
+<span class="p">}</span><span class="n">data</span><span class="p">;</span>
+</code></pre></div><p>Data struct’ını artık istediğimiz veriyi transfer etmesi için union ile sardık. Union kullanmamızın nedini hafızada ekstra yer kaplamamak. Hadi bunu transfer edelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="o">&amp;</span><span class="n">data</span><span class="p">.</span><span class="n">version</span><span class="p">,</span><span class="mi">1</span><span class="p">);</span>
+<span class="k">if</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">version</span><span class="o">==</span><span class="mi">1</span><span class="p">)</span>  
+    <span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">v1</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">format_V1</span><span class="p">));</span>
+<span class="k">else</span>   
+    <span class="n">Serial</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">data</span><span class="p">.</span><span class="n">v2</span><span class="p">,</span><span class="k">sizeof</span><span class="p">(</span><span class="n">format_V2</span><span class="p">));</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th><strong>Version</strong></th>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+<th><strong>Pressure</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>**(V1)**1  byte</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>0 bytes</td>
+</tr>
+<tr>
+<td>**(V2)**1  byte</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+<td>4 bytes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Şuana</strong> <strong>kadar</strong> <strong>neler</strong> <strong>yaptık</strong>?</p>
+<p>Text tabanlı formattan, binary formata geçiş yaptık bu da bize run time’da parse ve tip dönüşümü esnasında olacak zaman kayıplarını minimize etti. Veriler binary olarak depolandığı içinde hafıza da çok daha az yer kapladı. Bunlarla birlikte daha performanslı bir iletişim sağlamış olduk.</p>
+<p>Ayrıca serileştirdiğimiz kodlar;</p>
+<p>✅ Çoklu değişkenleri depolayıp, gönderebilir.</p>
+<p>✅ String dizi değişkenlerini destekler.</p>
+<p>✅ Farklı platformalarda çalışabilir.</p>
+<p>✅ Birden fazla versiyonu destekler.</p>
+<p>❌ Oldukça karışık ve zaman aldı.</p>
+<p>Buraya kadar az çok serileştirmeyi verilerimizi bilgisayar ortamına nasıl göndereceğimizi inceledik. Artık protokollere geçmenin zamanı gelmedi mi?</p>
+<p>Protokoller bizim yerimize tüm bu işlemleri platformadan bağımsız hale getirmesi gibi bir çok artı yönlerini inceleyeceğiz.</p>
+<p>Kullanılacak protokoller;</p>
+<ol>
+<li>
+<p>XML</p>
+</li>
+<li>
+<p>JSON</p>
+</li>
+<li>
+<p>NanoPb olacaktır.</p>
+</li>
+</ol>
+<p>Fakat bir şeyi fark ettiniz. Haberleşme problemlerini belirttiğim 2 problem üzerinde hiç durmadık. İlk problem haberleşme esnasında ki veri kaybı diğeri ise haberleşme esnasında ki herhangi bir bit’in değişmesi. Bu iki problem üzerinde durmama nedenim kafa karışıklığı olmaması içindi. Fakat bunun için sıklıkla kullanılan Cyclic Redundancy Code (CRC) methotuna daha sonra değinir ve gerekli önlemlerimizi almış olacağız. Ancak eminim ki sizlerde bunlarla uğraşmak istemiyeceksinizdir. İşte tamda bunun için sizlere protokolerden bahsetmek istiyorum Çünkü kodumuzu oldukça karmaşık hale geldi ve veri transfer ederken bilgisayar ortamında bu verilerin doğru aktrıldımı kontrolü ile uğraşmak hakikatan oldukça zaman alan işlemler. Protokoller bizler için bu problemleri çözüyor. Bize kalan ise sadece protokolün uyulması gereken kurallarını öğrenmek. Zaten protokolün manasıda uyulması gereken kurallar. Peki bu 3 protokol’ün 3 de aynı görevi yapması karşın farkları nelerdir? Öncellikle XML bildindiği üzere human readable bir format ve text tabanlı bir iletişimdir. Aynı şekilde Json’da XML gibidir. Ancak aralarındaki en önemli fark Json daha okunaklı bir yapısı olmasının yanında hafızada daha az yer kaplar. Buda Json iletişiminin Xml’den daha hızlı olacağını gösteriyor. Peki bu NanoPb’de neyin nesi? Protocol Buffer google tarafından geliştirilen bir protocol’dür ve NanoPb’ye oldukça benzerdir. NanoPb çok daha hızlı iletişim sağlayan hatta bizim kendi yazdığımız binary formattaki iletişimden de daha hızlı bir iletişim sağlayan bir prokoldür. Bunun nasıl olduğunu elbette NanoPb’yi anlatırken göreceğiz.</p>
+<p>Oldukça sık kullanılan bir protocol olmasının yanında arkasında Google gibi bir geliştirici olması bu protokolün önemli özelliklerindendir. Google kendi içinde ki haberleşmeyi hızlı ve güvenilir bir şekilde aktarmak için bu protokolü geliştirdi.</p>
+<p>Evet sonunda ilk protokolümüze geçmiş bulunmaktayız. Umarım şuana kadar anlatılanlar en azınızdan temel düzeyde kafanızda oturtmanıza yardımcı olmuştur. Buraya kadar iletişim noktasında çoğu şeyden bahssettik. Fakat hala anlatmadığım senkron, asekron ve gerçek zamanlı iletişim gibi olmazsa olmazımız olması gereken iletişim yapılarından bahsetmedim. Bunun için detaylı bir anlatımı protokollerden sonra anlatacağım. Asıl kullanacağımız protokol Nanopb olacak ama neden onu kullandığımı anlamanız için anlatacağım diğer protokolleride incelemenizi tavsiye ediyorum. Hadi öyleyse XML protokolü ile başlayalım.</p>
+<h4 id="xml"><strong>XML</strong></h4>
+<p><strong>XML</strong> (<strong>Extensible Markup Language</strong> ya da Türkçesiyle <strong>Genişletilebilir</strong> <strong>İşaretleme</strong> <strong>Dili</strong>), hem insanlar hem bilgi işlem sistemleri tarafından kolayca okunabilecek dokümanlar oluşturmaya yarayan bir işaretleme dilidir. W3C tarafından tanımlanmış bir standarttır. Bu özelliği ile veri saklamanın yanında farklı sistemler arasında veri alışverişi yapmaya yarayan bir ara format görevi de görür. İnternet üzerinde bir çok veri XML ile taşınır peki biz bunu donanım ile bilgisayar arasında gerçekleştirebilir miyiz? Öncelikle XML metinsel bir veri formatıdır bu nedenle taşınacak verilerin boyutu olağandan daha büyük olacak bu da bizim veri iletişim hızımızı düşürecektir.</p>
+<p>Örneğin;</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;data&gt;</span>
+    <span class="nt">&lt;temperature&gt;</span>21.2<span class="nt">&lt;/temperature&gt;</span>
+    <span class="nt">&lt;humidity&gt;</span>48<span class="nt">&lt;/humidity&gt;</span>
+    <span class="nt">&lt;timestamp&gt;</span>1025<span class="nt">&lt;/timestamp&gt;</span>
+<span class="nt">&lt;/data&gt;</span>
+</code></pre></div><p>Bu örnekte temperature, humidity, timestamp verilerimizi XML formatında nasıl temsil edildiğini gördük. Hadi bu formatı arduino üzerinde nasıl çalıştırabiliriz ona bakalım.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;data&gt;&lt;temperature&gt;&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">temperature</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;/temperature&gt;&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;humidity&gt;&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">humidity</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;/humidity&gt;&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;timestamp&gt;&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">timestamp</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;&lt;/timestamp&gt;&lt;/data&gt;&#34;</span><span class="p">);</span>
+</code></pre></div><p>Bunu böyle gönderdik ama bunun bilgisayar ortamında okunduktan sonra nasıl ayrıştırılacağına(deserializa) girmiyorum çünkü her dil için mantık aynı olsa da kodlar farklılık gösterecektir. Fakat bu şekilde veriyi transfer etmenin bize getireceği sorunları başta çokca bahsetmiştim. Peki bunu nasıl geliştirebiliriz. Öncelikle bu şekilde transfer etmenin daha sonra sırada herhangi bir verinin sırası değişmesi durumunda bilgisayar ortamında ki deserializa işleminide etkileyeceğinden arduino için geliştirilmiş kütüphane olan libxml2 kütüphanesini kullanarak bunu önleyelim.</p>
+<table>
+<thead>
+<tr>
+<th><strong><!-- raw HTML omitted --></strong></th>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+<th><strong><!-- raw HTML omitted --></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6  bytes</td>
+<td>31  bytes</td>
+<td>23  bytes</td>
+<td>28  bytes</td>
+<td>7  bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Bu şekilde totalde 95 byte, başta bizim tasarladığımızdan %700 daha fazla byte taşımış olacağız.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="cp">#include</span> <span class="cpf">&lt;libxml/parser.h&gt;</span><span class="cp">
+</span><span class="cp">#include</span> <span class="cpf">&lt;libxml/tree.h&gt;</span><span class="cp">
+</span><span class="cp"></span><span class="n">String</span> <span class="n">buffer</span> <span class="o">=</span> <span class="n">Serial</span><span class="p">.</span><span class="n">readString</span><span class="p">();</span>
+<span class="n">xmlDoc</span><span class="o">*</span> <span class="n">doc</span> <span class="o">=</span> <span class="n">xmlReadMemory</span><span class="p">(</span><span class="n">buffer</span><span class="p">.</span><span class="n">data</span><span class="p">(),</span>
+                <span class="n">buffer</span><span class="p">.</span><span class="n">size</span><span class="p">(),</span><span class="s">&#34;nanome.xml&#34;</span><span class="p">,</span><span class="nb">NULL</span><span class="p">,</span><span class="mi">0</span><span class="p">);</span>
+<span class="n">xmlNode</span><span class="o">*</span> <span class="n">root</span> <span class="o">=</span> <span class="n">xmlDocGEtRootElement</span><span class="p">(</span><span class="n">doc</span><span class="p">);</span>
+<span class="k">for</span><span class="p">(</span><span class="n">xmlNode</span><span class="o">*</span> <span class="n">node</span> <span class="o">=</span> <span class="n">root</span><span class="o">-&gt;</span><span class="n">children</span><span class="p">;</span> <span class="n">node</span><span class="p">;</span> <span class="n">node</span> <span class="o">=</span> <span class="n">node</span><span class="o">-&gt;</span><span class="n">next</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="kt">char</span><span class="o">*</span> <span class="n">key</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="n">node</span><span class="o">-&gt;</span><span class="n">name</span><span class="p">);</span>
+    <span class="kt">char</span><span class="o">*</span> <span class="n">value</span> <span class="o">=</span> <span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="kt">char</span><span class="o">*&gt;</span><span class="p">(</span><span class="n">xmlNodeGetContent</span><span class="p">(</span><span class="n">node</span><span class="p">));</span>
+    <span class="k">if</span><span class="p">(</span><span class="n">strcmp</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="s">&#34;temperature&#34;</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">temperature</span> <span class="o">=</span> <span class="n">atof</span><span class="p">(</span><span class="n">value</span><span class="p">);</span> <span class="c1">//atof(&#34;21.2&#34;) = 21.2
+</span><span class="c1"></span>    <span class="p">}</span>
+    <span class="n">elseif</span><span class="p">(</span><span class="n">strcmp</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="s">&#34;humidity&#34;</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">humidity</span> <span class="o">=</span> <span class="n">atof</span><span class="p">(</span><span class="n">value</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="n">elseif</span><span class="p">(</span><span class="n">strcmp</span><span class="p">(</span><span class="n">key</span><span class="p">,</span><span class="s">&#34;timestamp&#34;</span><span class="p">))</span> <span class="p">{</span>
+        <span class="n">timestamp</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="k">reinterpret_cast</span><span class="o">&lt;</span><span class="kt">uint32_t</span><span class="o">*&gt;</span><span class="p">(</span><span class="n">value</span><span class="p">));</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+<span class="n">xmlFreeDoc</span><span class="p">(</span><span class="n">doc</span><span class="p">);</span>
+</code></pre></div><p>XML kütüphanesinin artıları;</p>
+<ul>
+<li>
+<p>Esnek</p>
+</li>
+<li>
+<p>Taşınabilir</p>
+</li>
+<li>
+<p>Okunabilir</p>
+</li>
+<li>
+<p>Daha kısa bir önceki XML&rsquo;de elle yazdığımıza göre.</p>
+</li>
+</ul>
+<p>Bu yapıyı kullanmanızı tavsiye etmiyorum sadece genel olarak bir fikir edinmesi için değindi.</p>
+<p>Bu yapı ile birlikte donanımdan bağımsız olmuş oluyorsunuz lakin telemetri boyutu oldukça büyüdü.</p>
+<p>Bir diğer protokollümüz olan Json formatına geçelim ve XML ile arasındaki artılarını ve eksilerini gözlemliyelim.</p>
+<h4 id="json"><strong>JSON</strong></h4>
+<p>JSON, açılımı <strong>Javascript</strong> <strong>Object Notation</strong> olan, <strong>Key-Value (<strong><strong>anahtar-değer</strong></strong>)</strong> çiftlerinden oluşan metin biçimidir ve veri depolamak veya veri transferi gibi işlemler için kullanılmaktadır. <strong>XML</strong> ile benzerlik göstermekle birlikte, <strong>XML</strong>’den daha basit ve hızlı çalışmakta, yapısı itibariyle de daha küçük boyutlu veriler yazılabilmektedir. JSON <strong>Javascript</strong>’ten esinlenilerek yapılmışsada, diğer programlama dillerinden bağımsız olarak çalışmaktadır.</p>
+<p><strong>JSON’un</strong> <strong>Yapısı</strong> <strong>Nasıldır</strong>?</p>
+<p>Json 6 tane veri tipine sahiptir.</p>
+<ul>
+<li>
+<p>Number</p>
+</li>
+<li>
+<p>String</p>
+</li>
+<li>
+<p>Array: &ldquo;name&rdquo;: […] şeklinde kullanılır.</p>
+</li>
+<li>
+<p>Boolean: true|false</p>
+</li>
+<li>
+<p>Object: &ldquo;name&rdquo;: {..} şeklinde kullanılır.</p>
+</li>
+<li>
+<p>Null</p>
+</li>
+</ul>
+<p><strong>JSON</strong> <strong>ve</strong> <strong>XML</strong> <strong>Arasındaki</strong> <strong>Farklar</strong> <strong>Nelerdir</strong>**?**</p>
+<ul>
+<li>
+<p>XML’de ve ile elementler tanımlanır. JSON da ise element { .. } şeklindedir.</p>
+</li>
+<li>
+<p>JSON çıkış noktası Javascript iken , XML markup dillerinden çıkmıştır.</p>
+</li>
+<li>
+<p>JSON, Javascript’in dilinin bir özelliğidir ve Javascript tarafından desteklenmektedir.</p>
+</li>
+<li>
+<p>JSON’un , XML’e göre daha kısa yazılır ve daha kolay okunabilmektedir.</p>
+</li>
+<li>
+<p>JSON’da dizi desteği vardır. XML’de böyle bir kavram yer almamaktadır.</p>
+</li>
+<li>
+<p>JSON, XML’e göre daha hızlıdır ve daha küçüktür.</p>
+</li>
+<li>
+<p>JSON, XML gibi geliştirilebilir bir yapı değildir.</p>
+</li>
+</ul>
+<p>Bu iki protokol web ortamında verileri transfer etmek için oldukça fazla kullanılır. Peki biz bu protokolleri düşük seviyeli sistemlerde neden tercih etmeliyiz? Öncellikle IOT alanında bir cihazınız varsa ve bunu belirli bir zamanda hosta göndermek istediğiniz zaman bu protokollü kullanabilirisiniz lakin IOT&rsquo;ı için geliştirmiş bir protokol olan Mqtt protokolu çok daha fazla kullanılır. Sizin öncellikle veriyi transfer ederken verinizin kaç saniyede teslim edileceğini bilmeniz gerekir. Eğer ki sürekli olarak verileri bilgisayar ortamına gönderirseniz(buna asynchronous communication denir) o zaman bu protokoleri kullanmak sizin için uygun olmayacaktır. Fakat veriler Türksat Model Uydu yarışmasındaki gibi 1sn de bir veya daha yavaş(örn. 5sn) gönderilecekse bu protokkolerin kullanılmasında bir sakınca yoktur. Hemen ilk örneğimizdeki verileri Json formatında nasıl teslim edileceğini gözlemleyelim.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
+    <span class="nt">&#34;temperature&#34;</span><span class="p">:</span> <span class="mf">21.2</span><span class="p">,</span>
+    <span class="nt">&#34;humidity&#34;</span><span class="p">:</span> <span class="mi">48</span><span class="p">,</span>
+    <span class="nt">&#34;timestamp&#34;</span><span class="p">:</span> <span class="mi">40021</span>
+<span class="p">}</span>
+</code></pre></div><p>Bunu kütüphane kullanmadan nasıl göndereceğize bakalım daha sonra kütüphane kullanacağız.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-C++" data-lang="C++"><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;\{</span><span class="se">\&#34;</span><span class="s">temperature</span><span class="se">\&#34;</span><span class="s">:&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">temperature</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;,</span><span class="se">\&#34;</span><span class="s">humidity</span><span class="se">\&#34;</span><span class="s">:&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">humidity</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;,</span><span class="se">\&#34;</span><span class="s">timestamp</span><span class="se">\&#34;</span><span class="s">:&#34;</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">timestamp</span><span class="p">);</span>
+<span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&#34;\}&#34;</span><span class="p">);</span>
+</code></pre></div><table>
+<thead>
+<tr>
+<th><strong>{,,,}</strong></th>
+<th><strong>Temperature</strong></th>
+<th><strong>Humidity</strong></th>
+<th><strong>Timestamp</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5  bytes</td>
+<td>18  bytes</td>
+<td>13  bytes</td>
+<td>17  bytes</td>
+</tr>
+</tbody>
+</table>
+<p>Totalde 53 byte veri aktarımı yapıyor olcaığız bu XML&rsquo;e göre 42 byte daha az byte kullanarak veri aktarmak demek. Bu şekilde veriyi göndermek XML&rsquo;de ve ilk örneğimizde olduğu gibi sıra değişmesi halinde arayüz yazılımında da aynı sıraya göre deserializa işlemi yapılmak zorunda. Bunun içinde Arduino&rsquo;daki Json kütüphanesi kullanabiliriz.</p>
+<p><strong>ArduinoJSON</strong></p>
+<ul>
+<li>Oldukça popüler bir arduino kütüphanesidir.</li>
+<li>Her C++ projesi ile çalışır.</li>
+<li>Gömülü sistemler için optimize edilmiştir.</li>
+<li>Daha düşük hafıza kullanımı sağlar.</li>
+<li>Daha düşük cpu kullanımı sağlar.</li>
+<li>Test edilmiştir.</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="c1">//Serialization
+</span><span class="c1"></span><span class="n">StaticDocument</span><span class="o">&lt;</span><span class="mi">200</span><span class="o">&gt;</span> <span class="n">doc</span><span class="p">;</span>
+<span class="n">doc</span><span class="p">[</span><span class="s">&#34;temperature&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">temperature</span><span class="p">;</span>
+<span class="n">doc</span><span class="p">[</span><span class="s">&#34;humdity&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">humdity</span><span class="p">;</span>
+<span class="n">doc</span><span class="p">[</span><span class="s">&#34;timestamp&#34;</span><span class="p">]</span> <span class="o">=</span> <span class="n">timestamp</span><span class="p">;</span>
+<span class="n">SerializeJson</span><span class="p">(</span><span class="n">doc</span><span class="p">,</span><span class="n">Serial</span><span class="p">);</span>
+</code></pre></div><p>XML kütüphanesine göre çok daha basittir. Veri transfer için sadece Json document dosyası ile oluşturulmuş örneğin SerializeJson fonksiyonuna &ldquo;Serial&rdquo; fonksiyonu ile göndermek.</p>
+<p><strong>Diğer</strong> <strong>genel</strong> <strong>formatlar</strong>.</p>
+<p><strong>Saf</strong> <strong>binary format:</strong></p>
+<ul>
+<li>
+<p>Protocol Buffer</p>
+</li>
+<li>
+<p>Cap&rsquo;n Proto</p>
+</li>
+<li>
+<p>Apache Trift</p>
+</li>
+</ul>
+<p><strong>Binary JSONS:</strong></p>
+<ul>
+<li>MessagePack</li>
+<li>BSON</li>
+<li>CBOR</li>
+</ul>
+<p><strong>Extansions</strong> <strong>of JSON:</strong></p>
+<ul>
+<li>JSON5</li>
+<li>HanSON</li>
+<li>Amazon Ion</li>
+</ul>
+<h4 id="nanopb"><strong>NanoPb</strong></h4>
+<p><!-- raw HTML omitted --></p>
+<p>Hazırlayan:</p>
+<p>🅴🅽🅴🆂 🅰🅻🅿</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/communications/">Communications</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2021 Tech-Alp
+    </section>
+    
+    <section class="powerby">
+        
+            Tech Alp's Blog <br/>
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+                </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Table of contents</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#içindekiler">İçindekiler</a>
+      <ol>
+        <li><a href="#arayüz">Arayüz</a></li>
+        <li><a href="#haberleşme">Haberleşme</a>
+          <ol>
+            <li><a href="#xml"><strong>XML</strong></a></li>
+            <li><a href="#json"><strong>JSON</strong></a></li>
+            <li><a href="#nanopb"><strong>NanoPb</strong></a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+            </div>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
