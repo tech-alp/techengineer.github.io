@@ -1,4 +1,4 @@
-baseurl: https://techengineer.me/
+baseurl: /techengineer.me
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
@@ -15,7 +15,6 @@ googleAnalytics:
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
 DefaultContentLanguage: en
 
-builtDir: ./docs
 
 permalinks:
     post: /p/:slug/
