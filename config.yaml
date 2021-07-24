@@ -1,4 +1,4 @@
-baseurl: /techengineer.me
+baseurl: https://techengineer.blog
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
