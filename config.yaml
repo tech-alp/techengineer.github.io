@@ -40,7 +40,7 @@ params:
         subtitle: Embedded Software Engineer
         avatar:
             local: true
-            src: img\avatar.png
+            src: img\avatar.jpg
         github:
           username: tech-alp
         email:
