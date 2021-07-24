@@ -6,7 +6,7 @@ title: Tech-Alp
 
 publishDir: ./docs
 # Change it to your Disqus shortname before using
-disqusShortname: hugo-theme-stack
+disqusShortname: enesalp
 
 # GA Tracking ID
 googleAnalytics:
@@ -25,7 +25,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon:
+    favicon: "/img/favicon.ico"
 
     footer:
         since: 2021
@@ -39,8 +39,9 @@ params:
         emoji: 🍥
         subtitle: Embedded Software Engineer
         avatar:
-            local: false
-            src: img\avatar.jpg
+            enabled: true
+            local: true
+            src: "/img/avatar.jpg"
         github:
           username: tech-alp
         email:
