@@ -115,9 +115,9 @@ params:
 
     defaultImage:
         opengraph:
-            enabled: true
-            local: true
-            src: img/default.jpg
+          enabled: true
+          local: true
+          src: img/default.jpg
 
     colorScheme:
         # Display toggle
@@ -133,11 +133,11 @@ params:
             enabled: true
 
     banner:
-    info: 
-    local:
-      enabled: false
-      url: "https://www.artstation.com/artwork/QzBNxL"
-      src: "/img/default.jpg"
+        info: 
+        local:
+          enabled: true
+          url: "https://www.artstation.com/artwork/QzBNxL"
+          src: "/img/default.jpg"
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu
