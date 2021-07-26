@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Tech-Alp</title>
-    <link>https://techengineer.blog.me/categories/</link>
+    <link>https://techalp.engineer.blog/categories/</link>
     <description>Recent content in Categories on Tech-Alp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 20:28:39 +0300</lastBuildDate><atom:link href="https://techengineer.blog.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 20:28:39 +0300</lastBuildDate><atom:link href="https://techalp.engineer.blog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Communications</title>
-      <link>https://techengineer.blog.me/categories/communications/</link>
+      <link>https://techalp.engineer.blog/categories/communications/</link>
       <pubDate>Thu, 22 Jul 2021 20:28:39 +0300</pubDate>
       
-      <guid>https://techengineer.blog.me/categories/communications/</guid>
+      <guid>https://techalp.engineer.blog/categories/communications/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tutorials</title>
-      <link>https://techengineer.blog.me/categories/tutorials/</link>
+      <link>https://techalp.engineer.blog/categories/tutorials/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://techengineer.blog.me/categories/tutorials/</guid>
+      <guid>https://techalp.engineer.blog/categories/tutorials/</guid>
       <description>This is an example
 I&amp;rsquo;m dsd
 dsad
