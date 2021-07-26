@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tech-Alp</title>
-        <link>https://techengineer.blog/</link>
+        <link>https://techengineer.blog.me/</link>
         <description>Recent content on Tech-Alp</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 22 Jul 2021 20:28:39 +0300</lastBuildDate><atom:link href="https://techengineer.blog/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 22 Jul 2021 20:28:39 +0300</lastBuildDate><atom:link href="https://techengineer.blog.me/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Gömülü Sistemlerde Haberleşme</title>
-        <link>https://techengineer.blog/p/com/</link>
+        <link>https://techengineer.blog.me/p/com/</link>
         <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
         
-        <guid>https://techengineer.blog/p/com/</guid>
-        <description>&lt;img src="https://techengineer.blog/p/com/com.jpg" alt="Featured image of post Gömülü Sistemlerde Haberleşme" /&gt;&lt;h1 id=&#34;gömülü-sistemlerde-haberleşme&#34;&gt;Gömülü Sistemlerde Haberleşme&lt;/h1&gt;
+        <guid>https://techengineer.blog.me/p/com/</guid>
+        <description>&lt;img src="https://techengineer.blog.me/p/com/com.jpg" alt="Featured image of post Gömülü Sistemlerde Haberleşme" /&gt;&lt;h1 id=&#34;gömülü-sistemlerde-haberleşme&#34;&gt;Gömülü Sistemlerde Haberleşme&lt;/h1&gt;
 &lt;p&gt;Merhaba, bu yazımında sizlerle gömülü sistemlerde haberleşme nasıl yapılır ondan bahsedeceğim.&lt;/p&gt;
 &lt;p&gt;Öncellikle yazıya geçmeden önce sizlere geçen sene en çok sorun yaşadığım bu haberleşme konusunun neden önemli olduğundan bahsedeceğim. Bir inşaatta nasıl temel olmadan diğer katlara geçilemeyeceği gibi model uyduda da iletişim olmadan diğer işlemleri gerçekleştiremezsiniz. Eğer haberleşme düzgün kurulmuyorsa diğer yaptığınız tüm işlemler hiçbir işe yaramıyacaktır. Haberleşmede yaşayacağınız en ufak aksaklık haliyle arayüzünüzde sorunlara da yol açabilir. Bunların tedbirlerini almanız gerekmektedir. Ben sizlere haberleşme konusunda yaşadığım yazılımsal problemleri anlatacağım. Ancak sizlerinde bu hataları görüp nasıl çözüm bulunduğu görmeniz için öncelikle sorunu belirtip daha sonra sorunun çözümü göstereceğim. Bunlardan bazıları kendim yapmaya çalıştığım yöntemler olacaktır ve muhtemelen sizlerde ilk olarak bu yöntemlerden birini kulanacaksınız.
 Evet hazırsak başlıyoruz…&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 177; flex-basis: 426px&#34;&gt;
-		&lt;a href=&#34;https://techengineer.blog/p/com/DXh4DV.png&#34; data-size=&#34;1814x1020&#34;&gt;&lt;img src=&#34;https://techengineer.blog/p/com/DXh4DV.png&#34;
-				srcset=&#34;https://techengineer.blog/p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_480x0_resize_box_3.png 480w, https://techengineer.blog/p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://techengineer.blog.me/p/com/DXh4DV.png&#34; data-size=&#34;1814x1020&#34;&gt;&lt;img src=&#34;https://techengineer.blog.me/p/com/DXh4DV.png&#34;
+				srcset=&#34;https://techengineer.blog.me/p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_480x0_resize_box_3.png 480w, https://techengineer.blog.me/p/com/DXh4DV_hu171432fc6c76a1dafb4d5d010ac0e86f_1373977_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;1814&#34;
 				height=&#34;1020&#34;
 				loading=&#34;lazy&#34;
@@ -48,8 +48,8 @@ Evet hazırsak başlıyoruz…&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;Bu adımlar az çok her arayüz tasarımı için geçerli olacaktır.Hadi biraz detaya girelim ve bir arayüz tasarlayalım ve bu adımları üzerinde uygulayalım.&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 174; flex-basis: 417px&#34;&gt;
-		&lt;a href=&#34;https://techengineer.blog/p/com/image-20210721120607551.png&#34; data-size=&#34;3150x1810&#34;&gt;&lt;img src=&#34;https://techengineer.blog/p/com/image-20210721120607551.png&#34;
-				srcset=&#34;https://techengineer.blog/p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_480x0_resize_box_3.png 480w, https://techengineer.blog/p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://techengineer.blog.me/p/com/image-20210721120607551.png&#34; data-size=&#34;3150x1810&#34;&gt;&lt;img src=&#34;https://techengineer.blog.me/p/com/image-20210721120607551.png&#34;
+				srcset=&#34;https://techengineer.blog.me/p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_480x0_resize_box_3.png 480w, https://techengineer.blog.me/p/com/image-20210721120607551_hu1b4d36006bbc2626566be0a9563a483d_9504852_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;3150&#34;
 				height=&#34;1810&#34;
 				loading=&#34;lazy&#34;
@@ -60,8 +60,8 @@ Evet hazırsak başlıyoruz…&lt;/p&gt;
 &lt;p&gt;Şimdi yukarıdaki resimde arayüzü basit manada oluşturduk ve görüldüğü gibi çok fazla eksik var ve bu eksikleri tamamen isterler üzerinden giderek eklememiz gerekiyor. Ben 2020 yılı Türksat Model Uydu için istenen isterler üzerinden gideceğim. Arka plan kamerayı sağ alt köşedeki dikdörtgen ise haritayı teslim etmektedir. Gps ve oriantaion(yaw,pitch,roll), takım numarası, batary, tarih ve saat gibi bir kaç şey belirtilmiş fakat eksikleri daha sonra ekleyeceğiz. Gördüğünüz gibi arayüz oluşturuldu ama eksikler var. Zaten her şeyi bir anda tasarlayamayacağımız farkındayım ben de şuanlık böyle bırakıp artık backend kodlarına geçeceğim. Daha sonra eksik olan kısımları düzenleyeceğiz. Burada ise çok önemli kısım UI ile logic kısmı bir birinden ayırmanız bu size tasarımda oldukça esneklik sağlayacakır. Böyle bir tasarım yapmak için MVC design patern’ı araştırabilirsiniz.&lt;/p&gt;
 &lt;p&gt;Evet şimdi 3. adıma geçtik backend kodları yazmaya başlıyoruz. Backend kodu ile kastetmek istediğim logic katmandır. Kodları burda yazarak gitmek isterdim fakat o kadar bir vakit olmadığı için burayı tabiki siz yazacaksınız. Hadi 4. adımı inceleyelim. Teslim alınan telemetri verisini arayüzde bulunan yerlerine atama yapmanız gerekiyor. Bu telemetri verilerini nasıl teslim alınıyormuş gibi yapıyoruz ona bakalım. Bu yöntem aslında Test Driven Development(TTD) ile oldukça benzerdir. Mesela biz saat, tarih, batarya verisini aldık diyelim.&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 329; flex-basis: 791px&#34;&gt;
-		&lt;a href=&#34;https://techengineer.blog/p/com/image-20210721120752050.png&#34; data-size=&#34;277x84&#34;&gt;&lt;img src=&#34;https://techengineer.blog/p/com/image-20210721120752050.png&#34;
-				srcset=&#34;https://techengineer.blog/p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_480x0_resize_box_3.png 480w, https://techengineer.blog/p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://techengineer.blog.me/p/com/image-20210721120752050.png&#34; data-size=&#34;277x84&#34;&gt;&lt;img src=&#34;https://techengineer.blog.me/p/com/image-20210721120752050.png&#34;
+				srcset=&#34;https://techengineer.blog.me/p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_480x0_resize_box_3.png 480w, https://techengineer.blog.me/p/com/image-20210721120752050_hu094023ecda1d9bb0ea3abb38bb83bff7_51671_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;277&#34;
 				height=&#34;84&#34;
 				loading=&#34;lazy&#34;
@@ -75,8 +75,8 @@ Evet hazırsak başlıyoruz…&lt;/p&gt;
 &lt;p&gt;İlk olarak haberleşme nasıl yapılır sorusuna cevap verelim.&lt;/p&gt;
 &lt;p&gt;Cihaz ile hostu(örn. Bilgisayar) haberleştirmek için kullanılan birden fazla haberleşme çeşiti vardır. Bunlar Seri Haberleşme, Ethernet ve Bluetooth olabilir. Hadi biz seri haberleşem kullanalım. Peki seri haberleşme nasıl oluyor. Seri haberleşme klasik, bilgisayarın portu ile micro denetleyici arasında kulladığınız USB kablosu(genellikle RS232) ile yapılan haberleşmedir. Herkesin rahatlıkla temin edip, basit kodlama ve protatip üretmek amacıyla Arduino kullanılarak kodlama yapılacaktır. Mantık her ortam için geçerlidir.&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 1490; flex-basis: 3577px&#34;&gt;
-		&lt;a href=&#34;https://techengineer.blog/p/com/g36338.png&#34; data-size=&#34;626x42&#34;&gt;&lt;img src=&#34;https://techengineer.blog/p/com/g36338.png&#34;
-				srcset=&#34;https://techengineer.blog/p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_480x0_resize_box_3.png 480w, https://techengineer.blog/p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://techengineer.blog.me/p/com/g36338.png&#34; data-size=&#34;626x42&#34;&gt;&lt;img src=&#34;https://techengineer.blog.me/p/com/g36338.png&#34;
+				srcset=&#34;https://techengineer.blog.me/p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_480x0_resize_box_3.png 480w, https://techengineer.blog.me/p/com/g36338_hudce47fe6311f2b49cbfce638dcbb4624_14964_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;626&#34;
 				height=&#34;42&#34;
 				loading=&#34;lazy&#34;
@@ -99,8 +99,8 @@ Evet hazırsak başlıyoruz…&lt;/p&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;İlk haberleşmemizi gerçeleştirdik. Gördüğünüz gibi çok basit bir şekilde veriyi bilgisayar ortamına aktardık ve serial port ekranı aracılığı ile Temperature değerini gözlemledik. Peki işlem nasıl gerçekleşti. Tabi ki Arduino Ide’si biz seri ekranı açtığımız anda farkında olmadan veriyi arduinodan 9600 baudrate hızında bağlantı kurarak teslim aldı. Bizim yazacağımız arayüz bu mantıkla seri port ekranına benziyor demi? Bizde arayüzü tasarlarken seri porttan faydalanabiliriz.&lt;/p&gt;
 &lt;p&gt;O zaman seri port ekranını gözlemleyelim. Baudrate hızını ayarlamak için bir adet combo box var. Buradan Arduino ile bilgisayar ortamı arasındaki haberleşeme hızını seçiyoruz. Arduinoda yazdığımız haberleşme hızı Serial.begin(9600) ile aynı olmalıdır. Turuncu kutucuk &amp;ldquo;Yeni satır&amp;rdquo;, &amp;ldquo;starı başı&amp;rdquo;, &amp;ldquo;NL ve CR ile birlikte&amp;rdquo; olmak üzere monitordan arduinoya veri gönderirken satır sonuna eklenecek opsiyonları içerir.&lt;/p&gt;
 &lt;p&gt;&lt;figure style=&#34;flex-grow: 200; flex-basis: 480px&#34;&gt;
-		&lt;a href=&#34;https://techengineer.blog/p/com/use36508-9.png&#34; data-size=&#34;658x329&#34;&gt;&lt;img src=&#34;https://techengineer.blog/p/com/use36508-9.png&#34;
-				srcset=&#34;https://techengineer.blog/p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_480x0_resize_box_3.png 480w, https://techengineer.blog/p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_1024x0_resize_box_3.png 1024w&#34;
+		&lt;a href=&#34;https://techengineer.blog.me/p/com/use36508-9.png&#34; data-size=&#34;658x329&#34;&gt;&lt;img src=&#34;https://techengineer.blog.me/p/com/use36508-9.png&#34;
+				srcset=&#34;https://techengineer.blog.me/p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_480x0_resize_box_3.png 480w, https://techengineer.blog.me/p/com/use36508-9_hu02e8d3a9dae396c22c3d8f33ae49eafc_54839_1024x0_resize_box_3.png 1024w&#34;
 				width=&#34;658&#34;
 				height=&#34;329&#34;
 				loading=&#34;lazy&#34;

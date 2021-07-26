@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Tech-Alp</title>
-    <link>https://techengineer.blog/tags/</link>
+    <link>https://techengineer.blog.me/tags/</link>
     <description>Recent content in Tags on Tech-Alp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techengineer.blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techengineer.blog.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Communications</title>
-      <link>https://techengineer.blog/tags/communications/</link>
+      <link>https://techengineer.blog.me/tags/communications/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://techengineer.blog/tags/communications/</guid>
+      <guid>https://techengineer.blog.me/tags/communications/</guid>
       <description></description>
     </item>
     
