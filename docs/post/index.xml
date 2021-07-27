@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Tech-Alp</title>
-    <link>https://techalp.engineer.blog/post/</link>
+    <link>https://techenginer-alp.netlify.app/post/</link>
     <description>Recent content in Posts on Tech-Alp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techalp.engineer.blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techenginer-alp.netlify.app/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gömülü Sistemlerde Haberleşme</title>
-      <link>https://techalp.engineer.blog/p/com/</link>
+      <link>https://techenginer-alp.netlify.app/p/com/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://techalp.engineer.blog/p/com/</guid>
+      <guid>https://techenginer-alp.netlify.app/p/com/</guid>
       <description>Gömülü Sistemlerde Haberleşme Merhaba, bu yazımında sizlerle gömülü sistemlerde haberleşme nasıl yapılır ondan bahsedeceğim.
 Öncellikle yazıya geçmeden önce sizlere geçen sene en çok sorun yaşadığım bu haberleşme konusunun neden önemli olduğundan bahsedeceğim. Bir inşaatta nasıl temel olmadan diğer katlara geçilemeyeceği gibi model uyduda da iletişim olmadan diğer işlemleri gerçekleştiremezsiniz. Eğer haberleşme düzgün kurulmuyorsa diğer yaptığınız tüm işlemler hiçbir işe yaramıyacaktır. Haberleşmede yaşayacağınız en ufak aksaklık haliyle arayüzünüzde sorunlara da yol açabilir.</description>
     </item>

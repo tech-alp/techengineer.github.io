@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Tech-Alp</title>
-    <link>https://techalp.engineer.blog/page/</link>
+    <link>https://techenginer-alp.netlify.app/page/</link>
     <description>Recent content in Pages on Tech-Alp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techalp.engineer.blog/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 22 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://techenginer-alp.netlify.app/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://techalp.engineer.blog/about/</link>
+      <link>https://techenginer-alp.netlify.app/about/</link>
       <pubDate>Thu, 22 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://techalp.engineer.blog/about/</guid>
+      <guid>https://techenginer-alp.netlify.app/about/</guid>
       <description>Hi, I&amp;rsquo;m Enes.
 I&amp;rsquo;m an electrical and electronical engineer in Turkey. I am currently free. I enjoy problem solving, PCB design, coding &amp;amp; open-source software development.</description>
     </item>
     
     <item>
       <title>Archives</title>
-      <link>https://techalp.engineer.blog/archives/</link>
+      <link>https://techenginer-alp.netlify.app/archives/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://techalp.engineer.blog/archives/</guid>
+      <guid>https://techenginer-alp.netlify.app/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Search</title>
-      <link>https://techalp.engineer.blog/search/</link>
+      <link>https://techenginer-alp.netlify.app/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://techalp.engineer.blog/search/</guid>
+      <guid>https://techenginer-alp.netlify.app/search/</guid>
       <description></description>
     </item>
     
